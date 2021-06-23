@@ -1,0 +1,16 @@
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\TicketPricesExercise.exe
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\TicketPricesExercise.deps.json
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\TicketPricesExercise.runtimeconfig.json
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\TicketPricesExercise.runtimeconfig.dev.json
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\TicketPricesExercise.dll
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\ref\TicketPricesExercise.dll
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\bin\Debug\net5.0\TicketPricesExercise.pdb
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.csproj.AssemblyReference.cache
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.AssemblyInfoInputs.cache
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.AssemblyInfo.cs
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.csproj.CoreCompileInputs.cache
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.dll
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\ref\TicketPricesExercise.dll
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.pdb
+C:\Users\POberhau\Documents\Projects\TicketPricesExercise\ticketpricesexercise\obj\Debug\net5.0\TicketPricesExercise.genruntimeconfig.cache
