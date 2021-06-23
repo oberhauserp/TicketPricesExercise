@@ -7,34 +7,50 @@ namespace TicketPricesExercise
         static void Main(string[] args)
         {
             int price = 0;
-            bool isStudent = false; 
-            
-            Console.WriteLine("How old are you?");
-            int age =  Convert.ToInt32(Console.ReadLine());
-            Console.Write("Are you a student?");
-            string StudentString = Console.ReadLine();
-            
-            
-            if(StudentString == "Y" || StudentString == "y")
-            {
-                isStudent = true;
-            }
+            bool isStudent = false;
+
+            Console.WriteLine("How old are you? ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Are you a student? Y/N ");
+            string StudentString = Console.ReadLine().ToUpper();
 
             try
             {
-                ProcessAge(age);
+               isStudent = CheckStudent(StudentString);           
             }
-            catch(ArgumentException)
+            catch (ArgumentException)
+            {
+                Console.WriteLine("Error: Letter can only be Y or N for student!");
+                System.Environment.Exit(1);
+            }
+                
+            try
+            {
+                price = ProcessAge(age,isStudent);
+            }
+            catch (ArgumentException)
             {
                 Console.WriteLine("Error: Number cannot be negative!");
                 System.Environment.Exit(1);
             }
 
-            if(age >=  65 && isStudent == false)
+            Console.WriteLine("Your ticket price is " + price);
+        }
+
+
+
+        static int ProcessAge(int age, bool isStudent)
+        {
+            int price;
+            if (age < 0)
+            {
+                throw new ArgumentException();
+            }
+            else if (age >= 65 && isStudent == false)
             {
                 price = 10;
             }
-            else if(age >= 13 && age <= 64 && isStudent == false)
+            else if (age >= 13 && age <= 64 && isStudent == false)
             {
                 price = 14;
             }
@@ -43,19 +59,25 @@ namespace TicketPricesExercise
                 price = 8;
             }
 
-
-
-            Console.WriteLine("your ticket price is " + price);
+            return price;
         }
 
-    static void ProcessAge(int age)
-    {
-        if(age < 0)
+
+        static bool CheckStudent(string StudentString)
         {
-            throw new ArgumentException("Age must not be a negative number");
+             if (StudentString == "Y")
+                {
+                    return true;
+                }
+                else if(StudentString == "N")
+                {
+                    return false;
+                }
+                else
+                {
+                    throw new ArgumentException();
+                }
         }
-    }
-
 
     }
 }
